@@ -8,9 +8,19 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=postgres
+      - POSTGRES_DB=app_dev
     volumes:
       - ./db_data:/var/lib/postgresql/data/
 
+  app:
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      - DB_HOST=db
+      - MIX_ENV=dev
+      - SECRET_KEY_BASE=dunnome
+    depends_on:
+      - db
 volumes:
-  postgres_data:
+  postgres_data: null

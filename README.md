@@ -10,7 +10,9 @@ We understand time constraints so we've made this as simple as possible to evalu
 
 ## Assignment
 
-TODO
+Your mission will be to build an API that can be used to query some information about Products. A [sample data](support/data.csv) is provided in the `/support` folder. We have provided [the stub](lib/mix/tasks/import_products.ex) for a [Mix Task](https://hexdocs.pm/mix/1.12/Mix.Task.html) to import the data. Finish writing this code. You should use [Ecto](https://hexdocs.pm/ecto/Ecto.html) to model the data and store it in a local Postgres database. Then, utilize Phoenix to build an API to query the models. A very basic API design here would simply return all of the available products and make them filterable by one or many categories: laptop, desktop, server. You can choose to improve and refine this very basic API design, and we encourage you to do so. This will give us an opportunity to see how you approach API design.
+
+If you are running out of time, you can outline below in the [Your Notes](#your_notes) section  how you would have done things differently given more time.
 
 ## Setup Instructions
 
