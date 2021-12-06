@@ -10,7 +10,7 @@ ADD . .
 RUN mix local.hex --force && \
   mix local.rebar --force
 
-RUN mix do deps.get, compile, phx.digest, ecto.setup
+RUN mix do deps.get, compile, phx.digest
 # App Port
 EXPOSE 4000
 
