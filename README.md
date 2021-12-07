@@ -1,10 +1,10 @@
-# Take-Home Interview Project for Backend Engineer Role
+# Take-Home Test for Backend Engineer Role
 
 Thank you for your interest in applying to the Backend Engineer role at System76! Your mission—should you choose to accept it—is outlined in [Assignment](#assignment).
 
-## Why a take-home interview?
+## Why a take-home test?
 
-In-person coding interviews can be stressful, and can hide some people's full potential. A take-home interview gives you the chance showcase your talent by working in your own space, and on your own time.
+In-person coding interviews can be stressful, and can hide some people's full potential. A take-home test gives you the chance showcase your talent by working in your own space, and on your own time.
 
 We understand you may have time constraints, so we've made this as simple as possible to evaluate the skill and tech stack you will be using in your day-to-day here at System76.
 
@@ -32,7 +32,7 @@ To start your Phoenix server:
 
 You can now visit [`localhost:4000`](http://localhost:4000) from your browser to see the app running.
 
-Alternatively, you can run both the database and the app itself in a docke environment using [Docker compose](https://docs.docker.com/compose/):
+Alternatively, you can run both the database and the app itself in a Docker environment using [Docker compose](https://docs.docker.com/compose/):
 
 ```shell
 docker-compose build
@@ -54,16 +54,16 @@ While we'll be gathering as much data as we can from your implementation, our ev
 
 ### Your Notes
 
-TODO: Please leave us any notes about your experience with this challenge here.
+_TODO: Please leave us any notes about your experience with this challenge here._
 
 ### Time Spent
 
-_Give us a rough estimate of the time you spent working on the test. If you spent time learning in order to do this project please feel free to let us know that too. This makes sure that we are evaluating your work fairly and in context. It also gives us the opportunity to learn and adjust our process if needed._
+_TODO: Give us a rough estimate of the time you spent working on the test. If you spent time learning in order to do this project please feel free to let us know that too. This makes sure that we are evaluating your work fairly and in context. It also gives us the opportunity to learn and adjust our process if needed._
 
 ### Assumptions
 
-_Did you find yourself needing to make assumptions to complete this? If so, what were they, and how did they impact your design/code?_
+_TODO: Did you find yourself needing to make assumptions to complete this? If so, what were they, and how did they impact your design/code?_
 
 ### Production Readiness
 
-_Provide us with some notes about what you would do next if you had more time. Are there additional features that you would want to add? Specific improvements to the code you would make? Any additional testing or documentation?_
+_TODO: Provide us with some notes about what you would do next if you had more time. Are there additional features that you would want to add? Specific improvements to the code you would make? Any additional testing or documentation?_
